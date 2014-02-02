@@ -9,6 +9,11 @@ The primary audience of this library is library developers who want a
 consistent interface to various ORMs. You probably don't need to add this to
 your application directly.
 
+## Supported features
+
+This adapter supports all OrmAdapter features except for the `:order` and
+`:offset` options for the `#find_first` and `#find_every` methods.
+
 ## Contributing
 
 1. Fork it
