@@ -1,5 +1,11 @@
+require 'cequel/record'
+
 module Cequel
   module Record
+    module ClassMethods
+      include OrmAdapter::ToAdapter
+    end
+
     #
     # ORM adapter for Cequel, the Ruby ORM for Cassandra
     #

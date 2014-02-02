@@ -8,8 +8,8 @@ describe Cequel::Record::OrmAdapter do
     end
   end
   let(:post) { posts.first }
-  let(:blog_adapter) { Cequel::Record::OrmAdapter.new(Blog) }
-  let(:post_adapter) { Cequel::Record::OrmAdapter.new(Post) }
+  let(:blog_adapter) { Blog.to_adapter }
+  let(:post_adapter) { Post.to_adapter }
   subject { post_adapter }
 
   its(:column_names) { should == [:blog_subdomain, :id, :title, :author_id] }

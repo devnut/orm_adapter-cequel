@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency 'orm_adapter', '~> 0.5'
-  spec.add_runtime_dependency 'cequel', '~> 1.0.0.rc3'
+  spec.add_runtime_dependency 'cequel', '~> 1.0.0.rc4'
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
