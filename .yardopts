@@ -1,0 +1,5 @@
+-m markdown
+--no-private
+--safe
+--hide-void-return
+--embed-mixins
