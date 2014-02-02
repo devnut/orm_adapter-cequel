@@ -46,7 +46,7 @@ end
 
 desc 'Check style with Rubocop'
 Rubocop::RakeTask.new(:rubocop) do |task|
-  task.patterns = ['lib/**/*.rb']
+  task.patterns = ['lib']
   task.formatters = ['files']
   task.fail_on_error = true
 end
