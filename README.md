@@ -1,24 +1,13 @@
 # OrmAdapter::Cequel
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'orm_adapter-cequel'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install orm_adapter-cequel
+A plugin for [OrmAdapter](https://github.com/ianwhite/orm_adapter) adding
+support for the [Cequel](https://github.com/cequel/cequel) Cassandra ORM.
 
 ## Usage
 
-TODO: Write usage instructions here
+The primary audience of this library is library developers who want a
+consistent interface to various ORMs. You probably don't need to add this to
+your application directly.
 
 ## Contributing
 
