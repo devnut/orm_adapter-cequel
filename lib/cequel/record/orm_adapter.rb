@@ -3,7 +3,7 @@ require 'cequel/record'
 module Cequel
   module Record
     module ClassMethods
-      include OrmAdapter::ToAdapter
+      include ::OrmAdapter::ToAdapter
     end
 
     #
