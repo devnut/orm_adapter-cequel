@@ -1,4 +1,5 @@
 require 'cequel/record'
+require 'orm_adapter'
 
 module Cequel
   module Record

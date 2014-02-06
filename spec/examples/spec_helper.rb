@@ -1,10 +1,6 @@
 require 'bundler'
 Bundler.require(:default, :development)
 
-require 'cequel/record'
-require 'orm_adapter'
-require 'cequel/record/orm_adapter'
-
 RSpec.configure do |config|
   config.before :all do
     Cequel::Record.establish_connection(keyspace: 'orm_helper_cequel')
