@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'orm_adapter/cequel/version'
+require 'orm_adapter-cequel/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "orm_adapter-cequel"
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency 'orm_adapter', '~> 0.5'
-  spec.add_runtime_dependency 'cequel', '~> 1.0.0.rc4'
+  spec.add_runtime_dependency 'cequel', '~> 1.0'
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
