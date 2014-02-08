@@ -1,3 +1,3 @@
 AllCops:
   Excludes:
-    - "lib/orm_adapter/cequel/version.rb"
+    - "lib/orm_adapter-cequel/version.rb"

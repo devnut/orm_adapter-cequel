@@ -3,7 +3,7 @@ require 'orm_adapter'
 
 module Cequel
   module Record
-    module ClassMethods
+    module ClassMethods # rubocop:disable Documentation
       include ::OrmAdapter::ToAdapter
     end
 
