@@ -1,4 +1,3 @@
-require "bundler/gem_tasks"
 require "rspec/core/rake_task"
 require 'rubocop/rake_task'
 require File.expand_path('../lib/orm_adapter-cequel/version', __FILE__)
